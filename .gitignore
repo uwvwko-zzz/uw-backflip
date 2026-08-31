@@ -1,0 +1,68 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Python packaging and native build products
+build/
+dist/
+*.egg-info/
+*.egg
+*.so
+
+# Local Python environments
+.venv/
+venv/
+env/
+.conda/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Training outputs and experiment logs
+/outputs/
+/log/
+/logs/
+/runs/
+/wandb/
+events.out.tfevents.*
+*.tfevents.*
+*.pt
+*.pth
+*.ckpt
+
+# Deliberately published deployment models belong here
+!/models/
+!/models/**
+
+# Generated evaluation media and diagnostics
+/videos/
+/recordings/
+*.prof
+*.trace
+
+# Local datasets used only by legacy/debug algorithms
+/rl/Gen_his/utils/mnist_data/
+/rl/Gen_his/utils/shap_data/
+
+# Unitree SDK is cloned/installed locally; do not vendor its nested Git repo
+/unitree_sdk2_python/
+
+# Temporary and crash files
+*.log
+*.tmp
+*.temp
+*.bak
+core
+core.*
