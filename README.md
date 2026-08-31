@@ -18,7 +18,7 @@ Isaac Gym 从零训练 -> Isaac Gym 交互验证 -> ONNX 导出
 
 Unitree Go2 真机后空翻，actor 50 Hz 推理、LowCmd 500 Hz 发力，全程由策略接管：
 
-https://github.com/user-attachments/assets/b9f23c43-0123-4c6d-9971-448b0a690ce7
+https://github.com/user-attachments/assets/dfa6c1a1-600a-4a7d-8b5f-218bc82b891a
 
 ## 主要特性
 
